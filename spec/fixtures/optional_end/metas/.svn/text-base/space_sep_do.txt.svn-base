@@ -1,3 +1,0 @@
-def test_find_user_filter
-  post :do => 'deposit'
-  assert_match /behalf/, flash[:notice]

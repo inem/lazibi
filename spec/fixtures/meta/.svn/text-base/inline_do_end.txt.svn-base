@@ -1,2 +1,0 @@
-it "should fail when no description given" do
-  lambda { describe do; end }.should raise_error(ArgumentError)

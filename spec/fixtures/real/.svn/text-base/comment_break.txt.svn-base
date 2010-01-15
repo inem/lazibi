@@ -1,5 +1,0 @@
-class JavaScriptElementCollectionProxy < JavaScriptCollectionProxy #:nodoc:\
-  def initialize(generator, pattern)
-    super(generator, "$$(#{pattern.to_json})")
-  end
-end

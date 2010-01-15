@@ -1,3 +1,0 @@
-class DevelopersProject; end;
-
-  class ManyToManyFixturesWithClassDefined < Test::Unit::TestCase

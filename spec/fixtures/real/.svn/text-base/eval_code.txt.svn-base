@@ -1,7 +1,0 @@
-unless $".index 'racc/parser.rb'
-$".push 'racc/parser.rb'
-
-self.class.module_eval <<'..end /home/aamine/lib/ruby/racc/parser.rb modeval..idb76f2e220d', '/home/aamine/lib/ruby/racc/parser.rb', 1
-
-def abc
-end

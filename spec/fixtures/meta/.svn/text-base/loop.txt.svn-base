@@ -1,1 +1,0 @@
-loop { yield(scanner.scan(char) || break) }

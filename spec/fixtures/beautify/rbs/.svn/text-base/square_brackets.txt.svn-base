@@ -1,6 +1,0 @@
-it "should read several example names from file if --example is given an existing file name" do
-  options = parse(["--example", File.dirname(__FILE__) + '/examples.txt'])
-  options.examples.should eql([
-    "Sir, if you were my husband, I would poison your drink.",
-    "Madam, if you were my wife, I would drink it."])
-end

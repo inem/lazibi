@@ -1,2 +1,0 @@
-def assert_resource_methods(expected, resource, action_method, method)
-  assert_equal expected.length, resource.send("#{action_method}_methods")[method].size, "#{resource.send("#{action_method}_methods")[method].inspect}"

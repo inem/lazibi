@@ -1,9 +1,0 @@
-it "should throw when told to"
-  @mock.stub!(:something).and_throw(:blech)
-  lambda
-    @mock.something
-  end.should throw_symbol(:blech)
-
-lambda
-  @mock.something
-end.should throw_symbol(:blech)

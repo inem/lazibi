@@ -1,5 +1,0 @@
-it "should handle just a message" do
-  lambda {
-    Spec::Expectations.fail_with "the message"
-  }.should fail_with("the message")
-end
