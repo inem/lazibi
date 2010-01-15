@@ -1,0 +1,9 @@
+begin abc
+rescue
+end
+
+begin def
+#
+rescue
+end
+#

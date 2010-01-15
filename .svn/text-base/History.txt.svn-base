@@ -1,0 +1,101 @@
+== 0.1.15 2007-07-08
+
+* Bugs
+  * :do will not be treated as a keyword
+  * includes extra dependencies
+
+
+== 0.1.14 2007-06-29
+
+* Features
+  * Completely re-factored source code
+  * Move from unit test to rspec, reused _all_ the previous fixtures and test cases
+  * The engine can hook any filters with complete configuration
+  * Designed with future easy custom pre-processor filters plugin in mind
+  * Ruby based configuration file
+
+== 0.1.13 2007-06-22
+
+* Bugs
+  * {} and lambda syntax for optioanl_do 
+  * correctly parse inline def; end
+
+* Features
+  * Passed all spec tests for RSpec with optional_do filter on
+  
+== 0.1.12 2007-06-21
+
+* Bugs
+  * inline block do; end fix
+  * Mix " and / inline fix
+* Features
+  * Passed RSpec test ( manually disabled optional_do filter for spec )
+  * Passed redMine test
+
+== 0.1.11 2007-06-20
+
+* Bugs
+  * inline end: def abc; end
+* Features
+  * Now passes ActiveRecord test :] happy happy
+
+== 0.1.10 2007-06-20
+
+* A taste of RSpec
+* do is optional _only_ in spec directory, so you can write something like
+    describe Bowling
+      before(:each)
+        @bowling = Bowling.new
+
+      it "should score 0 for gutter game"
+        20.times { @bowling.hit(0) }
+        @bowling.score.should == 0
+
+== 0.1.9 2007-06-19
+
+* Using rails as a regression test code base is rewarding
+* Currently works with ActiveSupport, ActionMailer, ActionPack
+* Unit tests are from rails source code....
+* Sleepy
+
+== 0.1.8 2007-06-19
+
+* Support Here doc by not processing it :/
+* Support ruby eval by not processing it :|
+* Numeric fix of code
+* Passed rake test for actionmailer :p
+
+== 0.1.7 2007-06-18
+
+* Bug fix: when .backup exists, code generation stops to work
+
+== 0.1.6 2007-06-18
+
+* Patched beautifier to support /\// style RE and %w() %w{}
+* Make Lazibi works with itself again
+
+== 0.1.5 2007-06-15
+
+* Use beautifier to pre-format ruby scripts
+* Completely compatible with Rails projects now, no fix anymore :]
+
+== 0.1.4 2007-06-15
+
+* Added case syntax support, with test case
+
+== 0.1.3 2007-06-14
+
+* Fix last release unusable bug :|
+
+== 0.1.2 2007-06-14
+
+* homepage, rdoc etc
+
+== 0.1.1 2007-06-11
+
+* new syntax support
+  def class_1 def class_2 end end
+
+== 0.1.0 2007-06-12
+
+* Initial release

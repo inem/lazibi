@@ -1,0 +1,7 @@
+module Spec
+  module Mocks
+
+    describe "Mock ordering"
+
+      before
+        @mock = mock("test mock")

@@ -1,0 +1,8 @@
+#!/opt/local/bin/ruby
+
+$:.unshift(File.dirname(__FILE__) + '/../lib')
+
+require 'lazibi'
+
+r = Lazibi::Runner.new
+r.run

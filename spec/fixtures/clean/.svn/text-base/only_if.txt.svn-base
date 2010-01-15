@@ -1,0 +1,12 @@
+before + case quoting_method
+when "q", "Q" then
+  unquote_quoted_printable_and_convert_to(text, to_charset, from_charset, preserve_underscores)
+when "b", "B" then
+  unquote_base64_and_convert_to(text, to_charset, from_charset)
+when nil then
+  # will be nil at the end of the string, due to the nature of
+  # the regex used.
+  ""
+else
+  raise "unknown quoting method #{quoting_method.inspect}"
+end

@@ -1,0 +1,5 @@
+Rails::Initializer.run do |config|
+  # See Rails::Configuration for more options
+end
+
+# Inflector.inflections do |inflect|

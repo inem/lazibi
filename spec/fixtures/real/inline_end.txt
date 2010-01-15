@@ -1,0 +1,5 @@
+def abc end
+
+def some def abc end end
+
+alias_method :proxy_extend, :extend

@@ -1,0 +1,7 @@
+if mail._builtin_multipart?
+  then @multipart_composer
+else @singlepart_composer
+end.exec mail
+
+class a
+end

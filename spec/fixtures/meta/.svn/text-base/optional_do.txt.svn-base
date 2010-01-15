@@ -1,0 +1,2 @@
+create_table :orders
+  fkey :user

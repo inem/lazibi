@@ -1,0 +1,44 @@
+---
+title: Documentation
+---
+
+h1. Usage
+
+Bootstrap
+
+<pre>
+mkdir shiny_project
+cd shiny_project
+# put trunk in real
+svn co $svn_path/shiny_project/trunk real
+lazibi
+</pre>
+
+Make sure everything still works
+
+<pre>
+_start_a_new_terminal_
+cd shiny_project/real
+rake test / autotest
+</pre>
+
+Start hacking in meta :/
+
+<pre>
+cd shiny_project
+$your_editor meta
+</pre>
+
+
+h1. In Practice
+
+Lazibi is written using Lazibi. "autotest":http://www.zenspider.com/ZSS/Products/ZenTest/ is a must have, and Lazibi works well with TDD / RSpec.
+
+A few projects are used as test code:
+
+ActiveRecord, ActionMailer, ActionPack, ActiveSupport, Mongrel, RSpec, redMine.
+
+h1. Known issues
+
+Here docs, eval, javascript related libs, and complex string evaluation are currently not supported. 
+Ruby code with above syntax will be preserved as is. So your code should still works, just no parse.

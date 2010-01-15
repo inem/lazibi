@@ -1,0 +1,4 @@
+Dir.open(expected_dir).each do |fn|
+  next unless fn =~ /[.]txt$/
+  @real[fn.scan(/(.*)[.]/).to_s.to_sym] = File.read(expected_dir + "/#{fn}")
+end

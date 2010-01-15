@@ -1,0 +1,172 @@
+/* 
+** blue:blossom - base stylesheet
+**
+** This file contains the base styles that are used 
+** in every style variation.
+** 
+** April 14, 2007 - (version 1.0)
+** 
+** This is a part of the open source template
+** "blue:blossom" made by Jonas John (www.jonasjohn.de)
+*/
+
+/* 
+	General settings
+	----------------
+	All margins, paddings and borders are set here
+*/
+	
+	/* reset all margins, paddings and borders for specific elements */
+	body,div,p,img,form,h1,h2,h3,h4,h5,h6,ul,li { 
+		margin: 0; 
+		padding: 0; 
+		border: 0;
+	}
+	
+	body { 
+		margin: 0.6em 0em 2em 0em; 
+		text-align: center;
+	}   
+	
+	/* basics */
+	.centered { margin: 0 auto; text-align: left; }
+	.clear { clear: both; }
+	#content { padding: 0.7em 0.9em 0.7em 0.45em; }
+	.image { padding: 3px; }
+		
+	/* header */
+	#inner_header { padding-bottom: 0.2em; }
+	#inner_header h1 { padding: 0.2em 0.25em; }
+	
+	/* navigation */
+	#inner_header ul { list-style-type: none; padding: 0.2em 0em 0.3em 0.4em; }
+	#inner_header ul li { list-style-type: none; float: left; margin: 0em 0.3em 0em 0em; } 		
+	#inner_header ul li a { 
+		float: left;
+		padding: 0.35em 1em; 
+		text-decoration: none;
+		
+	}    
+	#inner_header br { display: none; }
+	
+	#inner_cover { background-repeat: no-repeat; }
+		
+
+	/* content */
+	#content p { margin-top: 0.5em;  }
+	#content a { text-decoration: none; }      
+
+		/* image classes */
+		.img_left {
+			float: left; 
+			margin: 0.5em 0.8em 0em 0em;	
+		}
+			
+		.img_right {
+			float: right; 
+			margin: 0.5em 0em 0em 0.8em;
+		}
+		
+		.image img {
+			display: block; margin: 0; padding: 0;
+		}
+
+	#footer { padding: 2em 0.5em 0.5em 0.5em; }
+	
+
+/* 
+	Sizes
+	-----
+	Here you can modify your page width and height
+*/    
+
+	.full { width: 100%; }
+	.centered { width: 540px; width: 33.8em; }
+	#inner_cover { height: 120px; }
+
+	  
+
+/* 
+	Colors
+	------
+	Colors are set here.
+*/   
+	
+	body { background-color: #FFFFFF; }
+	
+	/* header: */
+	#inner_header { background-color: #FFFFFF; }
+	
+		#inner_header h1 { color: #595959; }
+		#inner_header h1 a, #inner_header h1 a:link { 
+			color: #595959;
+			text-decoration: none;
+		}
+
+		#inner_header ul li a { 
+			background-color: #D9ECFD; 
+			color: #000000; 
+			border-bottom: 1px solid #CAD9B2; 
+			border-right: 1px solid #CAD9B2;
+		}
+		
+		#inner_header ul li a:hover { 
+			background-color: #000000;
+			color: #FFFFFF;
+		}
+
+	/* content */
+	#inner_content { background-color: #FFFFFF; }      
+	
+		#content h1 { color: #595959; }
+		#content a { background-color: #D9ECFD; color: #000000; padding: 1px; }
+		#content a:hover { background-color: #000000; color: #FFFFFF; }
+		
+		.image { background-color: #3B4629; }
+			
+			
+	/* footer */
+	#footer {  }  
+	#footer a:link, #footer a:visited { color: #000000; }     
+	#footer a:hover, #footer a:active { color: #FFFFFF; } 
+
+
+/* 
+	Fonts
+	-----
+	Font families and sizes are definied below.
+*/
+	body { font-size: 100%; }
+
+	/* logo headline */
+	#inner_header h1 { 
+		font-family: Arial, Verdana, sans-serif; 
+		font-size: 1.5em;
+	}
+	
+	/* navigation font */
+	#inner_header ul li { 
+		font-family: Verdana, Arial, sans-serif;  
+		font-size: 0.7em;
+	}
+	
+	/* content headlines */
+	#content h1 {
+		font-family: Arial, Verdana, sans-serif; 
+		font-size: 1.2em;
+		padding-top: 0.5em;
+	}
+	
+	/* content paragraphs */
+	#content p { 
+		font-family: Verdana, Arial, sans-serif; 
+		font-size: 0.7em; 
+		color: #595959; 
+		line-height: 1.64em;
+	}
+	
+	/* footer font */
+	#footer { font-size: 0.6em; }
+	   
+
+/* end of css - */

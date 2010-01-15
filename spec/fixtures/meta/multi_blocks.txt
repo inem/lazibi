@@ -1,0 +1,11 @@
+session_options.each do |opts|
+  next if opts[:if] && !opts[:if].call(request)
+  if opts[:only] && opts[:only].include?(action)
+    options.merge!(opts)
+  elsif opts[:except] && !opts[:except].include?(action)
+    options.merge!(opts)
+  elsif !opts[:only] && !opts[:except]
+    options.merge!(opts)
+
+if options.empty? then options
+else

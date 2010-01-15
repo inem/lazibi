@@ -1,0 +1,3 @@
+def target(path)
+  " \"" << "#{base}/#{path}".gsub(/["?<>\*]/, '') << "\""
+end

@@ -1,0 +1,3 @@
+def javascript_cdata_section(content) #:nodoc:
+  "\n//#{cdata_section("\n#{content}\n//")}\n"
+end

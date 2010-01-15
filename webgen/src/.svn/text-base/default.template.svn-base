@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Lazibi: Python style indenting in Ruby</title>
+    <!-- version 1.0 - released Apr 14, 2007 -->
+
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+    
+    <meta name="generator" content="Free template made by Jonas John (www.jonasjohn.de)" />
+    <meta name="description" content="put a good description in here" />
+    <meta name="keywords" content="and, insert, some, good, keywords" />
+
+    <!-- base stylesheet - construct -->
+    <link rel="stylesheet" type="text/css" href="css/code.css" media="screen, tv, projection" />
+    
+    <link rel="stylesheet" type="text/css" href="css/blossom_base.css" media="screen, tv, projection" title="Default" />
+
+    <!-- additional stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/blossom_v05.css" media="screen, tv, projection" />
+
+    <link rel="stylesheet" type="text/css" href="css/hack.css" media="screen, tv, projection" />
+    
+    <!-- print stylesheet (and print preview) -->
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+    <link rel="alternative stylesheet" type="text/css" href="css/print.css" media="screen" title="Print Preview" />
+
+    <!-- Navigational metadata (an accessibility feature - use opera to preview) -->
+    <link rel="top" href="index.html" title="Homepage" />
+    <link rel="up" href="index.html" title="Up" />
+    <link rel="first" href="index.html" title="First page" />
+    <link rel="previous" href="index.html" title="Previous page" />
+    <link rel="next" href="index.html" title="Next page" />
+    <link rel="last" href="index.html" title="Last page" />
+    <link rel="toc" href="index.html" title="Table of contents" />
+
+    <link rel="index" href="index.html" title="Site map" />
+    
+</head>
+
+<body>
+
+<div id="page">
+    
+    <div id="header" class="full">
+        <div id="inner_header" class="centered">
+            <h1><a href="index.html" title="Lazibi">Lazibi</a></h1>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="installation.html">installation</a></li>
+                <li><a href="documentation.html">documentation</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="development.html">development</a></li>
+            </ul>
+            <br class="clear" />&nbsp;
+        </div>
+    </div>
+    
+    <div id="cover" class="full">
+        <div id="inner_cover" class="centered">
+            &nbsp;
+        </div>
+    </div>
+    
+    <div class="full">
+        <div id="inner_content" class="centered">
+            <div id="content">
+            
+                <!-- replace the texts trough your own one: -->
+                {block: }
+
+                <br class="clear" />
+                
+                <p id="footer">
+                    Copyright &copy; 2007 <a href="mailto:nfjinjing@gmail.com">Jinjing</a>. 
+                    <a href="http://www.jonasjohn.de/">Webdesign by Jonas John</a>. 
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- i love clean source code -->
+
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1061550-3";
+urchinTracker();
+</script>
+</body>
+</html>
+

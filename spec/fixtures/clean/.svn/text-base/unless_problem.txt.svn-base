@@ -1,0 +1,4 @@
+keys.each do |key|
+  unless key.class.to_s == "String" # weird hack to make the tests run when string_ext_test.rb is also running
+  end
+end

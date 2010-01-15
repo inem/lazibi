@@ -1,0 +1,7 @@
+case abc
+when 'a'
+  puts 'a'
+when 'b'
+  puts 'b'
+else
+  puts 'c'
